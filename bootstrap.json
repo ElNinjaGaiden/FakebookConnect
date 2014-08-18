@@ -4,4 +4,4 @@
  * combination of content from app.json, and all required package's package.json
  * files.  Customizations should be placed in app.json.
  */
-{"id":"cbfe15f8-1fa0-4259-baf4-c18d3e8a6a7c","js":[{"path":"touch/sencha-touch.js"},{"path":"bootstrap.js"},{"path":"app.js","update":"delta"}],"css":[{"path":"resources/css/app.css","update":"delta"}]}
+{"id":"cbfe15f8-1fa0-4259-baf4-c18d3e8a6a7c","js":[{"path":"cordova.js","remote":true},{"path":"touch/sencha-touch.js"},{"path":"bootstrap.js"},{"path":"app.js","update":"delta"},{"path":"resources/scripts/facebook-js-sdk.js"},{"path":"resources/scripts/cdv-plugin-fb-connect.js"},{"path":"resources/scripts/init.js"}],"css":[{"path":"resources/css/app.css","update":"delta"}]}

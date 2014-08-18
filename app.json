@@ -53,8 +53,17 @@
         },
         {
             "path": "app.js",
-            "bundle": true,  /* Indicates that all class dependencies are concatenated into this file when build */
+            "bundle": true, /* Indicates that all class dependencies are concatenated into this file when build */
             "update": "delta"
+        },
+        { 
+            "path":  "resources/scripts/facebook-js-sdk.js"
+        },
+        {
+            "path": "resources/scripts/cdv-plugin-fb-connect.js"
+        },
+        { 
+            "path":  "resources/scripts/init.js"
         }
     ],
 

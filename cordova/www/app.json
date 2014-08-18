@@ -1,0 +1,1 @@
+{"id":"cbfe15f8-1fa0-4259-baf4-c18d3e8a6a7c","js":[{"path":"cordova.js","remote":true},{"path":"app.js","update":"delta"},{"path":"resources/scripts/facebook-js-sdk.js"},{"path":"resources/scripts/cdv-plugin-fb-connect.js"},{"path":"resources/scripts/init.js"}],"css":[{"path":"resources/css/app.css","update":"delta"}]}
