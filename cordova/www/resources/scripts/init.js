@@ -7,12 +7,12 @@ document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
     //Init facebook plugin
     FB.init({
-        appId: '1486437984928127',
+        appId: '1486435364928389', //1486437984928127
         nativeInterface: CDV.FB,
         useCachedDialogs: false
     });
 
-    FB.getLoginStatus(handleStatusChange);
+    //FB.getLoginStatus(handleStatusChange);
 }
 
 function handleStatusChange(session) {

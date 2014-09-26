@@ -31,7 +31,10 @@ Ext.define('FakebookConnect.view.Main', {
                                     try {
                                         FB.login(function (response) {
                                             if (response.authResponse) {
-                                                FB.api('/me', function (response) {
+                                                var fbFields = {
+                                                    fields: 'first_name, last_name, email, gender, locale, picture'
+                                                };
+                                                FB.api('/me', fbFields, function (response) {
                                                     //panel.setHtml('Good to see you, ' + response.name + '.');
                                                     panel.setHtml(JSON.stringify(response));
                                                 });
